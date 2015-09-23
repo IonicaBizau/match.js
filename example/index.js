@@ -72,7 +72,7 @@
 
     game.on("render", function (e, d, c) {
         // c is 0 or 1
-        e.children[c].remove();
+        e.children[0].children[c].remove();
     });
 
     game.on("win", function () {
