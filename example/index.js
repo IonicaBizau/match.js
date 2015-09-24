@@ -136,10 +136,9 @@
     });
 
     var pairsCountEl = document.getElementsByClassName("pairs-count")[0];
+    game.start();
     game.on("pair-flip", function () {
         pairsCountEl.innerHTML = game.flippedPairs;
     });
-
-    game.start();
 })();
 
