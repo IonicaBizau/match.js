@@ -1,8 +1,6 @@
 (function () {
     var game = new Match(".game", {
         templateElm: ".templates > div"
-      , timer: true
-      , pairsCount: true
       , autoremove: false
       , size: {
             x: 9
@@ -130,12 +128,16 @@
           , min = Math.floor(sec / 60)
           ;
 
-        sec = Math.floor(sec - min);
+        sec = Math.floor(sec - min * 60);
         sec = (sec < 10 ? "0" : "") + sec;
         min = (min < 10 ? "0" : "") + min;
 
         timeEl.innerHTML = min + ":" + sec;
+    });
 
+    var pairsCountEl = document.getElementsByClassName("pairs-count")[0];
+    game.on("pair-flip", function () {
+        pairsCountEl.innerHTML = game.pairsCount;
     });
 
     game.start();
