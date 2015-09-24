@@ -124,6 +124,15 @@
         }, 1000);
     });
 
+    var timeEl = document.getElementsByClassName("time")[0];
+    game.on("time", function (time) {
+        var sec = time / 1000
+          , min = Math.floor(sec / 60)
+          ;
+
+        timeEl = min + ":" + Math.floor(sec - min)
+    });
+
     game.start();
 })();
 
