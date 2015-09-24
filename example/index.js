@@ -114,12 +114,14 @@
     });
 
     game.on("success", function (elm1, elm2) {
-
-        elm.children[0].classList.remove("flipInY");
-        elm.children[1].classList.remove("rotateOut");
-
-        elm.children[1].classList.add("flipInY", "animated");
-        elm.children[0].classList.add("flipOutY", "animated");
+        setTimeout(function() {
+            elm1.classList.add("zoomOut", "animated");
+            elm2.classList.add("zoomOut", "animated");
+            setTimeout(function() {
+                elm1.remove();
+                elm2.remove();
+            }, 500);
+        }, 1000);
     });
 
     game.start();
