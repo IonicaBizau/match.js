@@ -137,7 +137,7 @@
 
     var pairsCountEl = document.getElementsByClassName("pairs-count")[0];
     game.on("pair-flip", function () {
-        pairsCountEl.innerHTML = game.pairsCount;
+        pairsCountEl.innerHTML = game.flippedPairs;
     });
 
     game.start();
