@@ -95,6 +95,16 @@
         alert("You won!");
     });
 
+    game.on("activate", function (elm) {
+        elm.children[0].classList.add("flipInY");
+        elm.children[1].classList.add("flipOutY");
+    });
+
+    game.on("deactivate", function (elm) {
+        elm.children[1].classList.add("flipInY");
+        elm.children[0].classList.add("flipOutY");
+    });
+
     game.start();
 })();
 
