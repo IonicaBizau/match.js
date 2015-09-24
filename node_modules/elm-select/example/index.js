@@ -1,6 +1,8 @@
+// Dependencies
 var ElmSelect = require("../lib");
 
-var myElm = ElmSelect("#my-id")
+// Some examples
+var myElm = ElmSelect("#my-id")[0]
   , myElms = ElmSelect(".some-class")
   ;
 
@@ -11,4 +13,5 @@ function foo(elm, some, args) {
      * */
 }
 
-var liElms = ElmSelect("ul > li", foo, [2, 3]);
+// Take all the li elements from already selected element (#my-id)
+var liElms = ElmSelect("ul > li", foo, [2, 3], myElm);

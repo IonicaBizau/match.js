@@ -4,12 +4,12 @@
       , timer: true
       , pairsCount: true
       , size: {
-            x: 5
+            x: 9
           , y: 4
         }
       , step: {
-            x: 80
-          , y: 80
+            x: 100
+          , y: 100
         }
     }, [
         {
@@ -75,6 +75,14 @@
       , {
             number: "16"
           , name: "Sixteen"
+        }
+      , {
+            number: "17"
+          , name: "Seventeen"
+        }
+      , {
+            number: "18"
+          , name: "Eighteen"
         }
     ]);
 

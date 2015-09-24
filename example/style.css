@@ -1,14 +1,30 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css");
+
 .game > div {
-    width: 70px;
-    height: 70px;
+    width: 85px;
+    height: 85px;
     position: absolute;
     display: inline-block;
     text-align: center;
     border: 1px dashed #2C3E50;
     box-shadow: 0 2px 5px rgba(44, 62, 80, 0.41);
+    cursor: pointer;
 }
 
 .game {
     text-align: center;
+    position: absolute;
+}
+.game > div .front {
+    padding: 17px 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.game > div .back {
+    width: 100%;
+    height: 100%;
+    background-color: #2C3E50;
     position: absolute;
 }

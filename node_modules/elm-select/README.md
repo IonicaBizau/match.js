@@ -30,9 +30,11 @@ Select DOM elements and optionally call a function.
 ## Example
 
 ```js
+// Dependencies
 var ElmSelect = require("elm-select");
 
-var myElm = ElmSelect("#my-id")
+// Some examples
+var myElm = ElmSelect("#my-id")[0]
   , myElms = ElmSelect(".some-class")
   ;
 
@@ -43,19 +45,21 @@ function foo(elm, some, args) {
      * */
 }
 
-var liElms = ElmSelect("ul > li", foo, [2, 3]);
+// Take all the li elements from already selected element (#my-id)
+var liElms = ElmSelect("ul > li", foo, [2, 3], myElm);
 
 ```
 
 ## Documentation
 
-### `ElmSelect(elm, fn, args)`
+### `ElmSelect(elm, fn, args, parent)`
 Select DOM elements and optionally call a function.
 
 #### Params
 - **String|Element|NodeList** `elm`: A stringified query selector, an element or a node list.
 - **Function** `fn`: If this function is provided, it will be called with the current element and additional arguments passed in `args`.
 - **Array** `args`: An array of arguments used in the `fn` function call (default: `[]`).
+- **String|Element** `parent`: The parent element where to search the elements (default: `document`). This makes sense only when a query selector is used.
 
 #### Return
 - **NodeList** A node list containing the selected elements.
