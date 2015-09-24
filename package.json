@@ -1,6 +1,6 @@
 {
-  "name": "match.js",
-  "version": "1.0.0",
+  "name": "match",
+  "version": "0.0.1",
   "description": "A tiny library for creating match memory games.",
   "main": "lib/index.js",
   "scripts": {
