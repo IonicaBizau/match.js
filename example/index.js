@@ -3,6 +3,7 @@
         templateElm: ".templates > div"
       , timer: true
       , pairsCount: true
+      , autoremove: false
       , size: {
             x: 9
           , y: 4
@@ -87,8 +88,7 @@
     ]);
 
     game.on("render", function (e, d, c) {
-        // c is 0 or 1
-        e.children[0].children[c].remove();
+        e.children[0].children[0].children[c].remove();
     });
 
     game.on("win", function () {
@@ -96,13 +96,30 @@
     });
 
     game.on("activate", function (elm) {
-        elm.children[0].classList.add("flipInY");
-        elm.children[1].classList.add("flipOutY");
+
+        elm.children[1].classList.remove("flipInY");
+        elm.children[0].classList.remove("flipOutY");
+
+        elm.children[0].classList.add("flipInY", "animated");
+        elm.children[1].classList.add("rotateOut", "animated");
     });
 
     game.on("deactivate", function (elm) {
-        elm.children[1].classList.add("flipInY");
-        elm.children[0].classList.add("flipOutY");
+
+        elm.children[0].classList.remove("flipInY");
+        elm.children[1].classList.remove("rotateOut");
+
+        elm.children[1].classList.add("flipInY", "animated");
+        elm.children[0].classList.add("flipOutY", "animated");
+    });
+
+    game.on("success", function (elm1, elm2) {
+
+        elm.children[0].classList.remove("flipInY");
+        elm.children[1].classList.remove("rotateOut");
+
+        elm.children[1].classList.add("flipInY", "animated");
+        elm.children[0].classList.add("flipOutY", "animated");
     });
 
     game.start();
