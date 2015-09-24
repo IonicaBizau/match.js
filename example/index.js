@@ -130,7 +130,12 @@
           , min = Math.floor(sec / 60)
           ;
 
-        timeEl = min + ":" + Math.floor(sec - min)
+        sec = Math.floor(sec - min);
+        sec = (sec < 10 ? "0" : "") + sec;
+        min = (min < 10 ? "0" : "") + min;
+
+        timeEl.innerHTML = min + ":" + sec;
+
     });
 
     game.start();
