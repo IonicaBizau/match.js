@@ -3,6 +3,14 @@
         templateElm: ".templates > div"
       , timer: true
       , pairsCount: true
+      , size: {
+            x: 5
+          , y: 4
+        }
+      , step: {
+            x: 80
+          , y: 80
+        }
     }, [
         {
             number: "1"

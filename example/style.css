@@ -1,14 +1,14 @@
 .game > div {
-    width: 20%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
     display: inline-block;
-    padding: 16px 10px;
     text-align: center;
     border: 1px dashed #2C3E50;
-    margin: 10px;
-    min-width: 70px;
     box-shadow: 0 2px 5px rgba(44, 62, 80, 0.41);
 }
 
 .game {
     text-align: center;
+    position: absolute;
 }
