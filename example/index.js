@@ -90,7 +90,10 @@
     });
 
     game.on("win", function () {
-        alert("You won!");
+        setTimeout(function () {
+            alert("You won!");
+            window.location = "https://github.com/IonicaBizau/match.js";
+        }, 1000);
     });
 
     game.on("activate", function (elm) {
