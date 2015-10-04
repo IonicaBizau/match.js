@@ -31,8 +31,8 @@ $ npm i match
         templateElm: ".templates > div"
       , autoremove: false
       , size: {
-            x: 9
-          , y: 4
+            x: 4
+          , y: 3
         }
       , step: {
             x: 100
@@ -130,13 +130,13 @@ $ npm i match
         elm.children[0].classList.remove("flipOutY");
 
         elm.children[0].classList.add("flipInY", "animated");
-        elm.children[1].classList.add("rotateOut", "animated");
+        elm.children[1].classList.add("flipOutY", "animated");
     });
 
     game.on("deactivate", function (elm) {
 
         elm.children[0].classList.remove("flipInY");
-        elm.children[1].classList.remove("rotateOut");
+        elm.children[1].classList.remove("flipOutY");
 
         elm.children[1].classList.add("flipInY", "animated");
         elm.children[0].classList.add("flipOutY", "animated");
