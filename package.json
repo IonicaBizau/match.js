@@ -20,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/match.js/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/match.js#readme"
+  "homepage": "https://github.com/IonicaBizau/match.js#readme",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "barbe": "^2.0.0",
+    "elm-select": "^1.0.0",
+    "iterate-object": "^1.1.0",
+    "shuffle-array": "^0.1.0",
+    "ul": "^5.0.0"
+  },
+  "devDependencies": {}
 }
