@@ -28,7 +28,8 @@
     "h_img": "http://i.imgur.com/KppnzAD.png",
     "ex_img": "http://i.imgur.com/U2XS8yd.png",
     "h_url": "http://ionicabizau.github.io/match.js/example",
-    "ex_url": "http://ionicabizau.github.io/match.js/example"
+    "ex_url": "http://ionicabizau.github.io/match.js/example",
+    "title": "match.js"
   },
   "devDependencies": {},
   "dependencies": {

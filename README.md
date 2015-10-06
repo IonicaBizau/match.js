@@ -15,7 +15,7 @@
 
 [![match](http://i.imgur.com/KppnzAD.png)](http://ionicabizau.github.io/match.js/example)
 
-# match [![Donate now][donate-now]][paypal-donations]
+# match.js [![Donate now][donate-now]][paypal-donations]
 
 Simplest way to create match memory games.
 
