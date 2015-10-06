@@ -1,7 +1,7 @@
 {
   "name": "match",
   "version": "0.0.1",
-  "description": "A tiny library for creating match memory games.",
+  "description": "Simplest way to create match memory games.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,12 +24,18 @@
   "directories": {
     "example": "example"
   },
+  "blah": {
+    "h_img": "http://i.imgur.com/KppnzAD.png",
+    "ex_img": "http://i.imgur.com/U2XS8yd.png",
+    "h_url": "http://ionicabizau.github.io/match.js/example",
+    "ex_url": "http://ionicabizau.github.io/match.js/example"
+  },
+  "devDependencies": {},
   "dependencies": {
     "barbe": "^2.0.0",
-    "elm-select": "^1.0.0",
+    "elm-select": "^1.1.0",
     "iterate-object": "^1.1.0",
     "shuffle-array": "^0.1.0",
     "ul": "^5.0.0"
-  },
-  "devDependencies": {}
+  }
 }

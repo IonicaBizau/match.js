@@ -13,15 +13,17 @@
 <!-- * * * Thanks! * * *                                                    -->
 <!---------------------------------------------------------------------------->
 
+[![match](http://i.imgur.com/KppnzAD.png)](http://ionicabizau.github.io/match.js/example)
+
 # match [![Donate now][donate-now]][paypal-donations]
 
-A tiny library for creating match memory games.
+Simplest way to create match memory games.
+
+[![match](http://i.imgur.com/U2XS8yd.png)](http://ionicabizau.github.io/match.js/example)
 
 ## Installation
 
-```sh
-$ npm i match
-```
+Check out the [`dist`](/dist) directory to download the script and include into your page.
 
 ## Example
 
@@ -306,6 +308,12 @@ Starts the game (renders the UI, starts the timer etc).
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
+## Press Highlights
+None yet. If you wrote or found an article about this project, [add it][contributing] in this section.  :memo:
+
+## Who uses this
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
 ## License
 [KINDLY][license] © [Ionică Bizău][website]–The [LICENSE](/LICENSE) file contains
 a copy of the license.
@@ -315,4 +323,4 @@ a copy of the license.
 [website]: http://ionicabizau.net
 [docs]: /DOCUMENTATION.md
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MG98D7NPFZ3MG
-[donate-now]: http://i.imgur.com/jioicaN.png
+[donate-now]: http://i.imgur.com/6cMbHOC.png
