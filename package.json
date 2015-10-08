@@ -29,7 +29,13 @@
     "ex_img": "http://i.imgur.com/U2XS8yd.png",
     "h_url": "http://ionicabizau.github.io/match.js/example",
     "ex_url": "http://ionicabizau.github.io/match.js/example",
-    "title": "match.js"
+    "title": "match.js",
+    "usages": [
+        {
+            "name": "OctiMatch–The classing memory game with GitHub's Octicons",
+            "url": "https://github.com/IonicaBizau/OctiMatch"
+        }
+    ]
   },
   "devDependencies": {},
   "dependencies": {
