@@ -314,7 +314,7 @@ None yet. If you wrote or found an article about this project, [add it][contribu
 ## Who uses this
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [OctiMatch–The classing memory game with GitHub's Octicons](https://github.com/IonicaBizau/OctiMatch)
+ - [OctiMatch–The classic memory game with GitHub's Octicons](https://github.com/IonicaBizau/OctiMatch)
 
 ## License
 [KINDLY][license] © [Ionică Bizău][website]–The [LICENSE](/LICENSE) file contains
