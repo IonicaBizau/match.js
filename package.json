@@ -1,6 +1,6 @@
 {
   "name": "match",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Simplest way to create match memory games.",
   "main": "lib/index.js",
   "scripts": {
@@ -29,13 +29,7 @@
     "ex_img": "http://i.imgur.com/U2XS8yd.png",
     "h_url": "http://ionicabizau.github.io/match.js/example",
     "ex_url": "http://ionicabizau.github.io/match.js/example",
-    "title": "match.js",
-    "usages": [
-      {
-        "name": "OctiMatch–The classic memory game with GitHub's Octicons",
-        "url": "https://github.com/IonicaBizau/OctiMatch"
-      }
-    ]
+    "title": "match.js"
   },
   "devDependencies": {},
   "dependencies": {
