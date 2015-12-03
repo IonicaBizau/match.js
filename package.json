@@ -1,6 +1,6 @@
 {
   "name": "match",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Simplest way to create match memory games.",
   "main": "lib/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "game"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
-  "license": "KINDLY",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/match.js/issues"
   },
