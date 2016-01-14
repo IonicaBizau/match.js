@@ -1,8 +1,8 @@
 [![match](http://i.imgur.com/KppnzAD.png)](http://ionicabizau.github.io/match.js/example)
 
-# match.js [![Support this project][donate-now]][paypal-donations]
+# match.js [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/match.svg)](https://www.npmjs.com/package/match) [![Downloads](https://img.shields.io/npm/dt/match.svg)](https://www.npmjs.com/package/match) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-Simplest way to create match memory games.
+> Simplest way to create match memory games.
 
 [![match](http://i.imgur.com/U2XS8yd.png)](http://ionicabizau.github.io/match.js/example)
 
