@@ -1,3 +1,4 @@
+
 [![match](http://i.imgur.com/KppnzAD.png)](http://ionicabizau.github.io/match.js/example)
 
 # match.js [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/match.svg)](https://www.npmjs.com/package/match) [![Downloads](https://img.shields.io/npm/dt/match.svg)](https://www.npmjs.com/package/match) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
@@ -6,11 +7,21 @@
 
 [![match](http://i.imgur.com/U2XS8yd.png)](http://ionicabizau.github.io/match.js/example)
 
-## Installation
+## :cloud: Installation
+
 
 Check out the [`dist`](/dist) directory to download the needed files and include them on your page.
 
-## Example
+If you're using this module in a CommonJS environment, you can install it from `npm` and `require` it:
+
+```sh
+$ npm i --save match
+```
+
+
+## :clipboard: Example
+
+
 
 ```js
 (function () {
@@ -161,7 +172,8 @@ Check out the [`dist`](/dist) directory to download the needed files and include
 })();
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `Match(elm, options, data)`
 Creates a new `Match` instance.
@@ -289,15 +301,18 @@ Starts the game (renders the UI, starts the timer etc).
 #### Return
 - **Match** The `Match` instance.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`octimatch`](https://github.com/IonicaBizau/OctiMatch#readme)
 
-## License
+ - [`octimatch`](https://github.com/IonicaBizau/OctiMatch#readme)—A matching game with GitHub's Octicons.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
