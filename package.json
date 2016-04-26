@@ -1,6 +1,6 @@
 {
   "name": "match",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Simplest way to create match memory games.",
   "main": "lib/index.js",
   "scripts": {
@@ -38,5 +38,16 @@
     "iterate-object": "^1.1.0",
     "shuffle-array": "^0.1.0",
     "ul": "^5.0.0"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
