@@ -21,6 +21,7 @@ Events you can listen to:
  - `time` (Number): Like `win`, but emitted every second, during the game.
 
 #### Params
+
 - **Element|String** `elm`: The HTML element or the query selector.
 - **Object** `options`: An object containing the following fields:
  - `autoremove` (Boolean): If `true`, the blocks will be removed when they are matching (default: `true`).
@@ -41,6 +42,7 @@ Events you can listen to:
 Checks if two elements match together.
 
 #### Params
+
 - **HTMLElement** `elm1`: The first element.
 - **HTMLElement** `elm2`: The second element.
 
@@ -63,6 +65,7 @@ Emits an event data data as arguments (`emit("some-event", and, data, here)`).
 Shuffles a given array.
 
 #### Params
+
 - **Array** `arr`: The array to shuffle (default: `this.data`).
 
 #### Return
@@ -78,6 +81,7 @@ Clears the container HTML.
 Deactivates the element.
 
 #### Params
+
 - **HTMLElement** `elm`: The block element.
 
 #### Return
@@ -87,6 +91,7 @@ Deactivates the element.
 Activates the element.
 
 #### Params
+
 - **HTMLElement** `elm`: The block element.
 
 #### Return
@@ -96,6 +101,7 @@ Activates the element.
 This is the internal click handler.
 
 #### Params
+
 - **HTMLElement** `elm`: The block element.
 
 #### Return
@@ -117,6 +123,7 @@ This function when the game is ended.
 Renders the game UI.
 
 #### Params
+
 - **Boolean** `clear`: If `true`, the container will be cleared.
 
 #### Return
