@@ -1,6 +1,6 @@
 {
   "name": "match",
-  "version": "1.2.10",
+  "version": "1.2.11",
   "description": "Simplest way to create match memory games.",
   "main": "lib/index.js",
   "scripts": {
@@ -50,6 +50,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
